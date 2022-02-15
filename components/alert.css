@@ -1,0 +1,50 @@
+:root{
+    --col-alert-primary: #2563eb;
+    --bg-alert-primary: #93c5fd;
+    --col-alert-secondary: #475569;
+    --bg-alert-secondary: #cbd5e1;
+    --col-alert-success:#16a34a;
+    --bg-alert-success:#86efac;
+    --col-alert-danger:#dc2626;
+    --bg-alert-danger:#fca5a5;
+    --col-alert-warning:#ea580c;
+    --bg-alert-warning:#fdba74;
+}
+
+/* ------------ALERT START------------------ */
+.alert{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    width: 80%;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.alert-primary{
+    color: var(--col-alert-primary);
+    background-color: var(--bg-alert-primary);
+}
+
+.alert-secondary{
+    color: var(--col-alert-secondary);
+    background-color: var(--bg-alert-secondary);
+}
+
+.alert-success{
+    color: var(--col-alert-success);
+    background-color: var(--bg-alert-success);
+}
+
+.alert-danger{
+    color: var(--col-alert-danger);
+    background-color: var(--bg-alert-danger);
+}
+
+.alert-warning{
+    color: var(--col-alert-warning);
+    background-color: var(--bg-alert-warning);
+}
+
+/* --------------ALERT END------------------- */
