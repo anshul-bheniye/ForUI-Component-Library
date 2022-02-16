@@ -133,6 +133,53 @@
         </div>
     <!-- IMAGE END -->
 
+    <!-- INPUT START -->
+        <div class="container">
+            <h2>Input</h2>
+            <p>Input takes data from from user.</p>
+            <h2>Input Text-box Example</h2>
+            <div class="container-border-padding ">
+                <div class="flex flex-row flex-center-row flex-wrap">
+                    <div class="font-size-sm padding-sm">
+                        <label for="l-text">Enter Text : </label>
+                        <div>
+                            <input type="text" class="input-box font-size-sm" id="l-text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                class="code-container"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520Input%2520Text-Box%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2522%253E%250A%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2>Input Validation and Error Examples</h2>
+            <div class="container-border-padding">
+                <div class="flex flex-row flex-center-row flex-wrap">
+                    <div class="font-size-sm padding-sm">
+                        <label for="l-text">Email : </label>
+                        <div class="flex flex-col">
+                            <input type="text" class="input-box font-size-sm input-border-validate" id="l-text">
+                            <small class="input-color-validate">Valid</small>
+                        </div>
+                    </div>
+                    <div class="font-size-sm padding-sm">
+                        <label for="l-text">Email : </label>
+                        <div class="flex flex-col">
+                            <input type="text" class="input-box input-border-error font-size-sm" id="l-text">
+                            <small class="input-color-error">Error</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                class="code-container"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520Input%2520Valid%2520style%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-border-validate%2522%253E%250A%250A%250A%253C%21--%2520Input%2520Error%2520style%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-border-error%2522%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    <!-- INPUT END -->
+
     <script src="./fuiapp.js"></script>
 </body>
 </html>
