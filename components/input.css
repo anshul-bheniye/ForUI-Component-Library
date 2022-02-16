@@ -1,0 +1,27 @@
+:root{
+    --border-col-green: #34d399;
+    --border-color-red: #d3346e;
+}
+
+.input-box{
+    width: 25rem;
+    border: 2px solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.input-border-validate{
+    border-color: var(--border-col-green);
+}
+
+.input-color-validate{
+    color: var(--border-col-green);
+}
+
+.input-border-error{
+    border-color: var(--border-color-red);
+}
+
+.input-color-error{
+    color: var(--border-color-red);
+}
