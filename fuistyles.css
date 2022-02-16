@@ -5,5 +5,12 @@
 @import './components/avatar.css';
 @import './components/alert.css';
 @import './components/image.css';
+@import './components/badge.css';
 
 /* -----------------------IMPORTS END--------------------------- */
+
+/* ------------SIZE START---------------------- */
+.font-size-sm{
+    font-size: 2rem;
+}
+/* -------------SIZE END----------------------- */

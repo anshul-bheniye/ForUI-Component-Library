@@ -1,0 +1,43 @@
+:root{
+    --bg-color-badge:#CE4760;
+    --col-badge-num: white;
+}
+/* -----------BADGE START------------------ */
+.badge-num{
+    border-radius: 50%;
+    color: var(--col-badge-num);
+    background-color: var(--bg-color-badge);
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.badge-dot{
+    display: inline-block;
+    background-color: var(--bg-color-badge);
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    padding: 0.2rem;   
+
+}
+
+.badge-icon-top-right{
+    position: relative;
+    bottom: 1.5rem;
+    right: 1rem;
+}
+
+.badge-btn-top-right{
+    position: relative;
+    bottom: 1.7rem;
+    right: 0.3rem;
+}
+
+.badge-avatar-bottom-right{
+    position: relative;
+    bottom: 0.2rem;
+    right: 0.7rem;
+}
+
+/* ------------BADGE END------------------------ */
