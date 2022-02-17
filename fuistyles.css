@@ -10,7 +10,9 @@
 @import './components/card.css';
 
 /* -----------------------IMPORTS END--------------------------- */
-
+*{
+    margin: 0;
+}
 /* ------------SIZE START---------------------- */
 .font-size-sm{
     font-size: 2rem;
@@ -18,6 +20,18 @@
 
 .padding-sm{
     padding: 1rem;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.margin-one-r{
+    margin: 1rem;
+}
+
+.margin-left-zero{
+    margin-left: 0;
 }
 /* -------------SIZE END----------------------- */
 
