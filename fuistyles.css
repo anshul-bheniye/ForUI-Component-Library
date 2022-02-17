@@ -7,9 +7,18 @@
 @import './components/image.css';
 @import './components/badge.css';
 @import './components/input.css';
+@import './components/card.css';
 
 /* -----------------------IMPORTS END--------------------------- */
+*{
+    margin: 0;
+}
 
+:root{
+    --primary-color: #34d399;
+    --secondary-color: #d3346e;
+    --complementary-color: white;
+}
 /* ------------SIZE START---------------------- */
 .font-size-sm{
     font-size: 2rem;
@@ -17,6 +26,18 @@
 
 .padding-sm{
     padding: 1rem;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.margin-one-r{
+    margin: 1rem;
+}
+
+.margin-left-zero{
+    margin-left: 0;
 }
 /* -------------SIZE END----------------------- */
 
@@ -35,6 +56,14 @@
 
 .flex-left-row{
     justify-content: left;
+}
+
+.flex-space-around-row{
+    justify-content: space-around;
+}
+
+.flex-space-between-row{
+    justify-content: space-between;
 }
 
 .flex-col{
