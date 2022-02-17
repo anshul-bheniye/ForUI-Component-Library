@@ -6,6 +6,7 @@
 @import './components/alert.css';
 @import './components/image.css';
 @import './components/badge.css';
+@import './components/input.css';
 
 /* -----------------------IMPORTS END--------------------------- */
 
@@ -13,4 +14,42 @@
 .font-size-sm{
     font-size: 2rem;
 }
+
+.padding-sm{
+    padding: 1rem;
+}
 /* -------------SIZE END----------------------- */
+
+/* --------------FLEX START------------------------ */
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-center-row{
+    justify-content: center;
+}
+
+.flex-left-row{
+    justify-content: left;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-center-col{
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-no-wrap{
+    flex-wrap: nowrap;
+}
+/* ------------------FLEX END----------------------- */
