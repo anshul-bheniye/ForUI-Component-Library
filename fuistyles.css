@@ -52,6 +52,14 @@
     justify-content: left;
 }
 
+.flex-space-around-row{
+    justify-content: space-around;
+}
+
+.flex-space-between-row{
+    justify-content: space-between;
+}
+
 .flex-col{
     flex-direction: column;
 }
