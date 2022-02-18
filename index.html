@@ -5,12 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ForUI-Component Library</title>
+    <link rel="icon" type="image/x-icon" href="./pictures/favicon.ico">
     <link rel="stylesheet" href="./fuistyles.css">
 </head>
 <body>
+    <!-- NAVIGATION -->
+    <nav id="top">
+        <div class="flex flex-row flex-space-between-row flex-wrap padding-sm">
+            <div>
+                <img src="./pictures/hero.svg" alt="avatar" class="avatar-md card-shadow">
+            </div>
+            <ul class="navigation flex flex-row flex-center-row flex-wrap font-size-sm">
+                <li> <a href="#docs" class="links col-primary">Documentation</a></li>
+                <li> <a href="#install" class="links col-primary">Installation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- NAVIGATION END -->
+
+    <!-- MAIN START -->
+    <div class="flex flex-col flex-center-col padding-bottom-seven">
+        <img class="card-ver card-shadow" src="./pictures/hero.svg" alt="ForUI-Component Library">
+        <h1 class="col-primary font-size-sm">Component Library</h1>
+        <p class="col-secondary font-size">A CSS framework built with Flex</p>
+        <a href="#"><button class="btn btn-primary"><i class="fab fa-github"></i> Give a Star</button></a>
+    </div>
+
+    <!-- MAIN END-->
+
     <!-- INSTALLATION START -->
     <div class="flex flex-col flex-left-col margin-one-r">
-        <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">INSTALLATION</h2>
+        <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm" id="install">INSTALLATION</h2>
         <div class="container-border-padding">
             <p class="margin-left-one col-primary font-size-sm">Link CSS</p>
         <div>
@@ -33,9 +59,24 @@
     </div>
     <!-- INSTALLATION END -->
 
+    <h2 class="col-primary font-size-sm" id="docs">DOCUMENTATION</h2>
+    <!-- COMPONENT NAV START -->
+    <nav class="sticky z-index-one container-border-padding">
+        <ul class="flex flex-row flex-space-between-row font-size-sm padding-sm list-style-none flex-wrap">
+            <li class="bg-primary card-shadow padding-sm"><a href="#alert" class="links col-secondary">ALERT</a></li>
+            <li class="bg-primary card-shadow padding-sm"><a href="#avatar" class="links col-secondary">AVATAR</a></li>
+            <li class="bg-primary card-shadow padding-sm"><a href="#badge" class="links col-secondary">BADGE</a></li>
+            <li class="bg-primary card-shadow padding-sm"><a href="#button" class="links col-secondary">BUTTON</a></li>
+            <li class="bg-primary card-shadow padding-sm"><a href="#card" class="links col-secondary">CARD</a></li>
+            <li class="bg-primary card-shadow padding-sm"><a href="#image" class="links col-secondary">IMAGE</a></li>
+            <li class="bg-primary card-shadow padding-sm"><a href="#input" class="links col-secondary">INPUT</a></li>
+            <li class="bg-primary col-secondary card-shadow padding-sm round-img"><a href="#top"><i class="fas fa-arrow-up col-secondary"></i></a></li>
+        </ul>
+    </nav>    
+    <!-- COMPONENT NAV END -->
     <!-- ALERT START -->
-        <h2 class="col-primary font-size-sm">DOCUMENTATION</h2>
-        <div class="container">
+        
+        <div class="container" id="alert">
             <div class="flex flex-col flex-left-col margin-one-r">
                 <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">ALERT COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">There are five types of alerts. Primary, Secondary, Success, Warning and Danger.</p>
@@ -83,7 +124,7 @@
     <!-- ALERT END -->
     
     <!-- AVATAR START -->
-        <div class="container">
+        <div class="container" id="avatar">
             <div class="flex flex-col flex-left-col margin-one-r">
                 <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">AVATAR COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Avatars are profile picture which have three sizes.</p>
@@ -117,7 +158,7 @@
     <!-- AVATAR END -->
 
     <!-- BADGE START -->
-        <div class="container">
+        <div class="container" id="badge">
             <div class="flex flex-col flex-left-col margin-one-r">
                 <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">BADGE COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Given below are three examples of badge. Badge on icon, badge on button and badge on avatar.</p>
@@ -151,7 +192,7 @@
     <!-- BADGE END -->
 
     <!-- BUTTON START -->
-        <div class="container">
+        <div class="container" id="button">
             <div class="flex flex-col flex-left-col margin-one-r">
                 <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">BUTTON COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Simply used for call to action. Button makes document accessible.</p>
@@ -184,7 +225,7 @@
     <!-- BUTTON END -->
 
     <!-- CARD START -->
-        <div class="container">
+        <div class="container" id="card">
             <div class="flex flex-col flex-left-col margin-one-r">
                 <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">CARD COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Cards can have image, heading, buttons, badges and many more.</p>
@@ -310,7 +351,7 @@
     <!-- CARD END -->
 
     <!-- IMAGE START -->
-        <div class="container">
+        <div class="container" id="image">
             <div class="flex flex-col flex-left-col margin-one-r">
                 <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">IMAGE COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Responsive images are most used these days. It is helpful to users for better experience.</p>
@@ -349,7 +390,7 @@
     <!-- IMAGE END -->
 
     <!-- INPUT START -->
-        <div class="container">
+        <div class="container" id="input">
             <div class="flex flex-col flex-left-col margin-one-r">
                 <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">INPUT COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Input is a part of the form element. Input takes data from user. Most commonly used in login and sign up forms.</p>
@@ -404,6 +445,14 @@
             </div>
         </div>
     <!-- INPUT END -->
+
+    <!-- FOOTER START -->
+        <footer class="bg-primary padding-sm font-size">
+            <div class="flex flex-row flex-center-row">
+                <a href="https://github.com/anshul-bheniye/ForUI-Component-Library" class="links col-secondary"><i class="fab fa-github-alt"></i> GitHub</a>
+            </div>
+        </footer>
+    <!-- FOOTER END -->
 
     <script src="./fuiapp.js"></script>
 </body>

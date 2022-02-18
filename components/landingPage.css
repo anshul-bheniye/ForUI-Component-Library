@@ -1,0 +1,21 @@
+nav{
+    padding: 2.5rem;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.navigation li{
+    display: block;
+	padding: 0rem 0.8rem;
+}
+
+.z-index-one{
+    z-index: 1;
+}
