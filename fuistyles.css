@@ -14,14 +14,42 @@
     margin: 0;
 }
 
+/* ---------------COLOR START-------------------------------- */
 :root{
     --primary-color: #34d399;
     --secondary-color: #d3346e;
     --complementary-color: white;
 }
+
+.col-primary{
+    color: var(--primary-color);
+}
+
+.bg-primary{
+    background-color: #34d399;
+}
+
+.col-secondary{
+    color: var(--secondary-color);
+}
+
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+
+hr{
+    background-color: var(--secondary-color);
+    height: 0.5rem;
+}
+/* ---------------COLOR END----------------------------------- */
+
 /* ------------SIZE START---------------------- */
 .font-size-sm{
     font-size: 2rem;
+}
+
+.font-size{
+    font-size: 1.5rem;
 }
 
 .padding-sm{
@@ -38,6 +66,30 @@
 
 .margin-left-zero{
     margin-left: 0;
+}
+
+.margin-right-zero{
+    margin-right: 0;
+}
+
+.margin-top-zero{
+    margin-top: 0;
+}
+
+.margin-bottom-zero{
+    margin-bottom: 0;
+}
+
+.margin-left-one{
+    margin-left: 1rem;
+}
+
+.margin-top-one{
+    margin-top: 1rem;
+}
+
+.margin-bottom-one{
+    margin-bottom: 1rem;
 }
 /* -------------SIZE END----------------------- */
 
