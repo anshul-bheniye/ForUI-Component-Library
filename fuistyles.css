@@ -8,6 +8,7 @@
 @import './components/badge.css';
 @import './components/input.css';
 @import './components/card.css';
+@import './components/landingPage.css';
 
 /* -----------------------IMPORTS END--------------------------- */
 *{
@@ -54,6 +55,10 @@ hr{
 
 .padding-sm{
     padding: 1rem;
+}
+
+.padding-bottom-seven{
+    padding-bottom: 7rem;
 }
 
 .margin-auto{
@@ -134,3 +139,13 @@ hr{
     flex-wrap: nowrap;
 }
 /* ------------------FLEX END----------------------- */
+
+/* -----------------LINK START------------------------- */
+.links{
+    text-decoration: none;
+}
+
+.links:hover{
+    font-size: 2.2rem;
+}
+/* ------------------LINK END---------------------------- */
