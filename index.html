@@ -8,279 +8,400 @@
     <link rel="stylesheet" href="./fuistyles.css">
 </head>
 <body>
-    <!-- ALERT START -->
-        <div class="container">
-            <h2>Alert</h2>
-            <p>There are five types of alerts. Primary, Secondary, Success, Warning and Danger.</p>
-            <p>If you are using close, mentioned in danger alert box then make sure to link javascript file from INSTALLATION</p>
-            <h2>Examples</h2>
-            <div class="container-border-padding">
-                <div class="alert alert-primary" role="alert">
-                    This is an example of primary alert box.
-                </div>
-    
-                <div class="alert alert-secondary" role="alert">
-                    This is an example of secondary alert box.
-                </div>
-    
-                <div class="alert alert-success" role="alert">
-                    This is an example of success alert box.
-                </div>
-    
-                <div class="alert alert-warning" role="alert">
-                    This is an example of warning alert box.
-                </div>
-    
-                <div class="alert alert-danger" id="alert-hide" role="alert">
-                    This is an example of danger alert box with close. <i class="fas fa-times" id="alert-close"></i>
-                </div>
-            </div>
+    <!-- INSTALLATION START -->
+    <div class="flex flex-col flex-left-col margin-one-r">
+        <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">INSTALLATION</h2>
+        <div class="container-border-padding">
+            <p class="margin-left-one col-primary font-size-sm">Link CSS</p>
+        <div>
             <iframe
                 class="code-container"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520example%2520of%2520primary%2520alert%2520box.%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520example%2520of%2520secondary%2520alert%2520box.%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520This%2520is%2520an%2520example%2520of%2520success%2520alert%2520box.%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520example%2520of%2520warning%2520alert%2520box.%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520id%253D%2522alert-hide%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%2520id%253D%2522alert-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520This%2520is%2520an%2520example%2520of%2520danger%2520alert%2520box%2520with%2520close.%250A%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=757.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%250A%2509%2509%2509%2509%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522.%252Ffuistyles.css%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
+        </div>
+
+        <p class="margin-left-one col-primary font-size-sm">Link JS</p>
+        <div>
+            <iframe
+                class="code-container"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=757.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2509%2509%2509%2520%2520%253Cscript%2520src%253D%2522.%252Ffuiapp.js%2522%253E%253C%252Fscript%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        </div>
+    </div>
+    <!-- INSTALLATION END -->
+
+    <!-- ALERT START -->
+        <h2 class="col-primary font-size-sm">DOCUMENTATION</h2>
+        <div class="container">
+            <div class="flex flex-col flex-left-col margin-one-r">
+                <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">ALERT COMPONENT</h2>
+                <p class="margin-left-one col-secondary font-size">There are five types of alerts. Primary, Secondary, Success, Warning and Danger.</p>
+                <p class="margin-left-one col-secondary font-size">If you are using close, mentioned in danger alert box then make sure to link javascript file from INSTALLATION</p>
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>alert</code> <code>alert-primary</code> <code>alert-secondary</code> <code>alert-success</code> <code>alert-warning</code> <code>alert-danger</code>
+                </div>
+
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Id for Close Icon</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>alert-hide</code> <code>alert-close</code>
+                </div>
+            </div>
+                <h2 class="col-primary font-size-sm">Examples</h2>
+            <div class="container-border-padding">
+                <div class="flex flex-col flex-center-col">
+                    <div class="alert alert-primary" role="alert">
+                        This is an example of primary alert box.
+                    </div>
+        
+                    <div class="alert alert-secondary" role="alert">
+                        This is an example of secondary alert box.
+                    </div>
+        
+                    <div class="alert alert-success" role="alert">
+                        This is an example of success alert box.
+                    </div>
+        
+                    <div class="alert alert-warning" role="alert">
+                        This is an example of warning alert box.
+                    </div>
+        
+                    <div class="alert alert-danger" id="alert-hide" role="alert">
+                        This is an example of danger alert box with close. <i class="fas fa-times" id="alert-close"></i>
+                    </div>
+                </div>
+                <iframe
+                    class="code-container"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520example%2520of%2520primary%2520alert%2520box.%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520example%2520of%2520secondary%2520alert%2520box.%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520This%2520is%2520an%2520example%2520of%2520success%2520alert%2520box.%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520example%2520of%2520warning%2520alert%2520box.%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520id%253D%2522alert-hide%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%2520id%253D%2522alert-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520This%2520is%2520an%2520example%2520of%2520danger%2520alert%2520box%2520with%2520close.%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </div>
         </div>
     <!-- ALERT END -->
     
     <!-- AVATAR START -->
         <div class="container">
-            <h1>Avatars</h1>
-            <p>Three mainly used avatars</p>
-            <h2>Examples</h2>
-            <div class="container-border-padding">
-                <img class="avatar-sm" src="https://images.unsplash.com/photo-1635003913011-95971abba560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80" alt="3d-animatefigure">
-
-                <img class="avatar-md" src="https://images.unsplash.com/photo-1635003913011-95971abba560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80" alt="3d-animated-figure">
-
-
-                <img class="avatar-lg" src="https://images.unsplash.com/photo-1635003913011-95971abba560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80" alt="3d-animated-figure">
+            <div class="flex flex-col flex-left-col margin-one-r">
+                <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">AVATAR COMPONENT</h2>
+                <p class="margin-left-one col-secondary font-size">Avatars are profile picture which have three sizes.</p>
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>avatar-sm</code> <code>avatar-md</code> <code>avatar-lg</code>
+                </div>
             </div>
-            <iframe
+            <h2 class="col-primary font-size-sm">Examples</h2>
+            <div class="container-border-padding">
+                <div class="flex flex-row flex-space-around-row">
+                    <div>
+                        <img class="avatar-sm" src="https://images.unsplash.com/photo-1635003913011-95971abba560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80" alt="3d-animatefigure">
+                    </div>
+    
+                    <div>
+                        <img class="avatar-md" src="https://images.unsplash.com/photo-1635003913011-95971abba560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80" alt="3d-animated-figure">
+                    </div>
+    
+                    <div>
+                        <img class="avatar-lg" src="https://images.unsplash.com/photo-1635003913011-95971abba560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80" alt="3d-animated-figure">
+                    </div>
+                </div>
+                <iframe
                 class="code-container"
                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-sm%2522%2520src%253D%2522path-here%2522%2520alt%253D%2522alt-text%2522%253E%250A%250A%253Cimg%2520class%253D%2522avatar-md%2522%2520src%253D%2522path-here%2522%2520alt%253D%2522alt-text%2522%253E%250A%250A%253Cimg%2520class%253D%2522avatar-lg%2522%2520src%253D%2522path-here%2522%2520alt%253D%2522alt-text%2522%253E"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
+            </div>
         </div>
     <!-- AVATAR END -->
 
     <!-- BADGE START -->
         <div class="container">
-            <h2>Badge</h2>
-            <p>Given below are three examples of badge. Badge on icon, badge on button and badge on avatar</p>
-            <h2>Examples</h2>
-            <div class="container-border-padding">
-                <button class="btn btn-icon font-size-sm"><i class="fas fa-bell font-awesome-color"></i></button><span class="badge-num badge-icon-top-right">7</span>
-
-                <button class="btn btn-primary">Pending</button><span class="badge-dot badge-sm badge-btn-top-right"></span>
-
-                <img class="avatar-md" src="https://images.unsplash.com/photo-1635003913011-95971abba560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80" alt="3d-animated-figure"><span class="badge-dot badge-sm badge-avatar-bottom-right"></span>
+            <div class="flex flex-col flex-left-col margin-one-r">
+                <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">BADGE COMPONENT</h2>
+                <p class="margin-left-one col-secondary font-size">Given below are three examples of badge. Badge on icon, badge on button and badge on avatar.</p>
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>badge-sm</code> <code>badge-num</code> <code>badge-dot</code> <code>badge-icon-top-right</code> <code>badge-avatar-bottom-right</code>
+                </div>
             </div>
-            <iframe
+            <h2 class="col-primary font-size-sm">Examples</h2>
+            <div class="container-border-padding">
+                <div class="flex flex-row flex-space-around-row">
+                    <div>
+                        <button class="btn btn-icon font-size-sm"><i class="fas fa-bell font-awesome-color"></i></button><span class="badge-num badge-icon-top-right">7</span>
+                    </div>
+    
+                    <div>
+                        <button class="btn btn-primary">Pending</button><span class="badge-dot badge-sm badge-btn-top-right"></span>
+                    </div>
+    
+                    <div>
+                        <img class="avatar-md" src="https://images.unsplash.com/photo-1635003913011-95971abba560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80" alt="3d-animated-figure"><span class="badge-dot badge-sm badge-avatar-bottom-right"></span>
+                    </div>
+                </div>
+                <iframe
                 class="code-container"
                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520font-size-sm%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bell%2520font-awesome-color%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253Cspan%2520class%253D%2522badge-num%2520badge-icon-top-right%2522%253E7%253C%252Fspan%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPending%253C%252Fbutton%253E%253Cspan%2520class%253D%2522badge-dot%2520badge-sm%2520badge-btn-top-right%2522%253E%253C%252Fspan%253E%250A%250A%253Cimg%2520class%253D%2522avatar-md%2522%2520src%253D%2522path-here%2522%2520alt%253D%25223d-animated-figure%2522%253E%253Cspan%2520class%253D%2522badge-dot%2520badge-sm%2520badge-avatar-bottom-right%2522%253E%253C%252Fspan%253E"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
+            </div>
         </div>
     <!-- BADGE END -->
 
     <!-- BUTTON START -->
         <div class="container">
-            <h1>Buttons</h1>
-            <p>Simply used for call to action. Button makes document accessible.</p>
-            <h2>Examples</h2>
-            <div class="container-border-padding">
-                <button class="btn btn-primary">Primary Solid</button>
-                <button class="btn btn-outline">Primary Outline</button>
-                <button class="btn btn-link">Link Button</button>
-                <button class="btn btn-icon"><i class="fas fa-camera font-awesome-color"></i></button>
-                <button class="btn btn-primary"><i class="fas fa-camera"></i> Camera</button>
+            <div class="flex flex-col flex-left-col margin-one-r">
+                <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">BUTTON COMPONENT</h2>
+                <p class="margin-left-one col-secondary font-size">Simply used for call to action. Button makes document accessible.</p>
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>btn</code> <code>btn-primary</code> <code>btn-outline</code> <code>btn-link</code> <code>btn-icon</code>
+                </div>
             </div>
+            <h2 class="col-primary font-size-sm">Examples</h2>
+            <div class="container-border-padding">
+                <div class="flex flex-row flex-space-around-row flex-wrap">
+                    <button class="btn btn-primary">Primary Solid</button>
+                
+
+                    <button class="btn btn-outline">Primary Outline</button>
+                    
+                    <button class="btn btn-link">Link Button</button>
+                    
+                    <button class="btn btn-icon"><i class="fas fa-camera font-awesome-color"></i></button>
+                
+                    <button class="btn btn-primary"><i class="fas fa-camera"></i> Camera</button>
+                </div>
                 <iframe 
                     class="code-container"
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%2520Solid%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EPrimary%2520Outline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-camera%2520font-awesome-color%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-camera%2522%253E%253C%252Fi%253E%2520Camera%253C%252Fbutton%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
+            </div>       
         </div>
     <!-- BUTTON END -->
 
     <!-- CARD START -->
         <div class="container">
-            <h2>Cards</h2>
-            <p>Cards can have image, heading, buttons, badges and many more.</p>
-            <p>For using shadow under cards you can use <code>class="card-shadow"</code></p>
-            <h2>Examples</h2>
-            <div class="container-border-padding flex flex-row flex-center-row flex-wrap">
-                <div class="card card-ver card-shadow flex flex-col">
-                    <img src="./pictures/card-image.png" alt="image" class="responsive-img card-ver-img-border">
-                    <div class="padding-sm ">
-                        <h1>Vertical Card</h1>
-                        <small>A little bit of text</small>
-                        <p class="margin-one-r margin-left-zero">You can give here some description about your product and be specific.</p>
-                        <div class="flex flex-row flex-space-around-row margin-one-r">
-                            <button class="btn btn-primary">Submit</button>
-                            <button class="btn btn-link">Link</button>
+            <div class="flex flex-col flex-left-col margin-one-r">
+                <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">CARD COMPONENT</h2>
+                <p class="margin-left-one col-secondary font-size">Cards can have image, heading, buttons, badges and many more.</p>
+                <p class="margin-left-one col-secondary font-size">If you are using Dismiss on card make sure to link javascript file from INSTALLATION</p>
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>card</code> <code>card-ver</code> <code>card-hor</code> <code>card-shadow</code> <code>card-position-rel</code> <code>card-text-overlay-center</code> <code>card-text-overlay-bottom-left</code> <code>card-text-overlay-top-right</code> <code>card-badge-overlay-outside</code>
+                </div>
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Id for Dismiss</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>card-hide</code> <code>card-close</code>
+                </div>
+            </div>
+            <h2 class="col-primary font-size-sm">Examples</h2>
+            <div class="container-border-padding">
+                <div class="flex flex-row flex-center-row flex-wrap">
+                    <div class="card card-ver card-shadow flex flex-col">
+                        <img src="./pictures/card-image.png" alt="image" class="responsive-img card-ver-img-border">
+                        <div class="padding-sm ">
+                            <h1>Vertical Card</h1>
+                            <small>A little bit of text</small>
+                            <p class="margin-one-r margin-left-zero">You can give here some description about your product and be specific.</p>
+                            <div class="flex flex-row flex-space-around-row margin-one-r">
+                                <button class="btn btn-primary">Submit</button>
+                                <button class="btn btn-link">Link</button>
+                            </div>
                         </div>
                     </div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-ver%2520card-shadow%2520flex%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2520card-ver-img-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522padding-sm%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EVertical%2520Card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EA%2520little%2520bit%2520of%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-one-r%2520margin-left-zero%2522%253EYou%2520can%2520give%2520here%2520some%2520description%2520about%2520your%2520product%2520and%2520be%2520specific.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-space-around-row%2520margin-one-r%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        class="code-container"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-ver%2520card-shadow%2520flex%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2520card-ver-img-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522padding-sm%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EVertical%2520Card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EA%2520little%2520bit%2520of%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-one-r%2520margin-left-zero%2522%253EYou%2520can%2520give%2520here%2520some%2520description%2520about%2520your%2520product%2520and%2520be%2520specific.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-space-around-row%2520margin-one-r%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    class="code-container"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
 
-            <div class="container-border-padding flex flex-row flex-center-row flex-wrap">
-                <div class="card card-hor card-shadow flex flex-row">
-                    <div class="flex">
-                    <img src="./pictures/card-image.png" alt="image" class="responsive-img card-hor-img-border">    
-                    </div>
-                    <div class="flex flex-col padding-sm margin-auto">
-                        <h1>Horizontal Card</h1>
-                        <small>A little bit of text</small>
-                        <p class="margin-one-r margin-left-zero">You can give here some description about your product and be specific.</p>
-                        <div class="flex flex-row flex-space-around-row">
-                            <button class="btn btn-primary">Submit</button>
-                            <button class="btn btn-link">Link</button>
+                <hr class="margin-top-one margin-bottom-one">
+    
+                <div class="flex flex-row flex-center-row flex-wrap">
+                    <div class="card card-hor card-shadow flex flex-row">
+                        <div class="flex">
+                        <img src="./pictures/card-image.png" alt="image" class="responsive-img card-hor-img-border">    
+                        </div>
+                        <div class="flex flex-col padding-sm margin-auto">
+                            <h1>Horizontal Card</h1>
+                            <small>A little bit of text</small>
+                            <p class="margin-one-r margin-left-zero">You can give here some description about your product and be specific.</p>
+                            <div class="flex flex-row flex-space-around-row">
+                                <button class="btn btn-primary">Submit</button>
+                                <button class="btn btn-link">Link</button>
+                            </div>
                         </div>
                     </div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card%2520card-hor%2520card-shadow%2520flex%2520flex-row%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2520card-hor-img-border%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-col%2520padding-sm%2520margin-auto%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%253EHorizontal%2520Card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Csmall%253EA%2520little%2520bit%2520of%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-one-r%2520margin-left-zero%2522%253EYou%2520can%2520give%2520here%2520some%2520description%2520about%2520your%2520product%2520and%2520be%2520specific.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-space-around-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        class="code-container"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card%2520card-hor%2520card-shadow%2520flex%2520flex-row%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2520card-hor-img-border%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-col%2520padding-sm%2520margin-auto%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%253EHorizontal%2520Card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Csmall%253EA%2520little%2520bit%2520of%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-one-r%2520margin-left-zero%2522%253EYou%2520can%2520give%2520here%2520some%2520description%2520about%2520your%2520product%2520and%2520be%2520specific.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-space-around-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    class="code-container"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
+    
+                <hr class="margin-top-one margin-bottom-one">
 
-            <div class="container-border-padding flex flex-row flex-center-row flex-wrap">
-                <div class="card card-ver card-shadow flex flex-col">
-                    <div class="padding-sm">
-                        <h1>Text Only Card</h1>
-                        <small>A little bit of text</small>
-                        <p class="margin-one-r margin-left-zero">You can give here some description about your product and be specific.</p>
+                <div class="flex flex-row flex-center-row flex-wrap">
+                    <div class="card card-ver card-shadow flex flex-col">
+                        <div class="padding-sm">
+                            <h1>Text Only Card</h1>
+                            <small>A little bit of text</small>
+                            <p class="margin-one-r margin-left-zero">You can give here some description about your product and be specific.</p>
+                        </div>
                     </div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-ver%2520card-shadow%2520flex%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522padding-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EText%2520Only%2520Card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EA%2520little%2520bit%2520of%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-one-r%2520margin-left-zero%2522%253EYou%2520can%2520give%2520here%2520some%2520description%2520about%2520your%2520product%2520and%2520be%2520specific.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                        class="code-container"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-ver%2520card-shadow%2520flex%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522padding-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EText%2520Only%2520Card%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EA%2520little%2520bit%2520of%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522margin-one-r%2520margin-left-zero%2522%253EYou%2520can%2520give%2520here%2520some%2520description%2520about%2520your%2520product%2520and%2520be%2520specific.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
-                    class="code-container"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
+                
+                <hr class="margin-top-one margin-bottom-one">
 
-            <div class="container-border-padding flex flex-row flex-center-row flex-wrap">
-                <div class="card-ver card-shadow flex flex-col card-position-rel">
-                    <img src="./pictures/card-image.png" alt="image" class="responsive-img">
-                    <h1 class="card-text-overlay-center">Text Overlay</h1>
-                </div>
-                <iframe
-                    class="code-container"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card-ver%2520card-shadow%2520flex%2520flex-col%2520card-position-rel%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2522%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-text-overlay-center%2522%253EText%2520Overlay%253C%252Fh1%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%2520"
-                    ="code-container"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>     
-            
-            <div class="container-border-padding flex flex-row flex-center-row flex-wrap">
-                <div class=" card-ver card-shadow flex flex-col card-position-rel" id="card-hide">
-                    <img src="./pictures/card-image.png" alt="image" class="responsive-img">
-                    <i class="fas fa-times card-text-overlay-top-right font-size-sm" id="card-close"></i>
-                    <h1 class="card-text-overlay-bottom-left">Card with Dismiss</h1>
-                </div>
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%253Cdiv%2520class%253D%2522%2520card-ver%2520card-shadow%2520flex%2520flex-col%2520card-position-rel%2522%2520id%253D%2522card-hide%2522%253E%250A%2520%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2522%253E%250A%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520card-text-overlay-top-right%2520font-size-sm%2522%2520id%253D%2522card-close%2522%253E%253C%252Fi%253E%250A%2520%253Ch1%2520class%253D%2522card-text-overlay-bottom-left%2522%253ECard%2520with%2520Dismiss%253C%252Fh1%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%2520"
-                    class="code-container"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div> 
+                <div class="flex flex-row flex-center-row flex-wrap">
+                    <div class="card-ver card-shadow flex flex-col card-position-rel">
+                        <img src="./pictures/card-image.png" alt="image" class="responsive-img">
+                        <h1 class="card-text-overlay-center">Text Overlay</h1>
+                    </div>
+                    <iframe
+                        class="code-container"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card-ver%2520card-shadow%2520flex%2520flex-col%2520card-position-rel%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2522%253E%250A%2520%2520%253Ch1%2520class%253D%2522card-text-overlay-center%2522%253EText%2520Overlay%253C%252Fh1%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%2520"
+                        ="code-container"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>     
+                
+                <hr class="margin-top-one margin-bottom-one">
 
-            <div class="container-border-padding flex flex-row flex-center-row flex-wrap">
-                <div class=" card-ver card-shadow flex flex-col card-position-rel">
-                    <img src="./pictures/card-image.png" alt="image" class="responsive-img">
-                    <p class="card-badge-overlay-outside card-border-top-right font-size-sm padding-sm card-badge"><i class="fas fa-eye"></i> 27</p>
-                    <h1 class="card-text-overlay-bottom-left">Card with Badge</h1>
+                <div class="flex flex-row flex-center-row flex-wrap">
+                    <div class=" card-ver card-shadow flex flex-col card-position-rel" id="card-hide">
+                        <img src="./pictures/card-image.png" alt="image" class="responsive-img">
+                        <i class="fas fa-times card-text-overlay-top-right font-size-sm" id="card-close"></i>
+                        <h1 class="card-text-overlay-bottom-left">Card with Dismiss</h1>
+                    </div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%253Cdiv%2520class%253D%2522%2520card-ver%2520card-shadow%2520flex%2520flex-col%2520card-position-rel%2522%2520id%253D%2522card-hide%2522%253E%250A%2520%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2522%253E%250A%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520card-text-overlay-top-right%2520font-size-sm%2522%2520id%253D%2522card-close%2522%253E%253C%252Fi%253E%250A%2520%253Ch1%2520class%253D%2522card-text-overlay-bottom-left%2522%253ECard%2520with%2520Dismiss%253C%252Fh1%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%2520"
+                        class="code-container"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div> 
+                
+                <hr class="margin-top-one margin-bottom-one">
+
+                <div class="flex flex-row flex-center-row flex-wrap">
+                    <div class=" card-ver card-shadow flex flex-col card-position-rel">
+                        <img src="./pictures/card-image.png" alt="image" class="responsive-img">
+                        <p class="card-badge-overlay-outside card-border-top-right font-size-sm padding-sm card-badge"><i class="fas fa-eye"></i> 27</p>
+                        <h1 class="card-text-overlay-bottom-left">Card with Badge</h1>
+                    </div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%253Cdiv%2520class%253D%2522%2520card-ver%2520card-shadow%2520flex%2520flex-col%2520card-position-rel%2522%253E%250A%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2522%253E%250A%253Cp%2520class%253D%2522card-badge-overlay-outside%2520card-border-top-right%2520font-size-sm%2520padding-sm%2520card-badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-eye%2522%253E%253C%252Fi%253E%252027%253C%252Fp%253E%250A%253Ch1%2520class%253D%2522card-text-overlay-bottom-left%2522%253ECard%2520with%2520Badge%253C%252Fh1%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        class="code-container"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-row%2520flex-center-row%2520flex-wrap%2522%253E%250A%253Cdiv%2520class%253D%2522%2520card-ver%2520card-shadow%2520flex%2520flex-col%2520card-position-rel%2522%253E%250A%253Cimg%2520src%253D%2522.%252Fpictures%252Fcard-image.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522responsive-img%2522%253E%250A%253Cp%2520class%253D%2522card-badge-overlay-outside%2520card-border-top-right%2520font-size-sm%2520padding-sm%2520card-badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-eye%2522%253E%253C%252Fi%253E%252027%253C%252Fp%253E%250A%253Ch1%2520class%253D%2522card-text-overlay-bottom-left%2522%253ECard%2520with%2520Badge%253C%252Fh1%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    class="code-container"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
             </div>
         </div>
     <!-- CARD END -->
 
     <!-- IMAGE START -->
         <div class="container">
-            <h2>Images</h2>
-            <p>Responsive images are most used these days. It is helpful to users for better experience.</p>
-            <h2>Responsive Example</h2>
-            <div class="container-border-padding">
+            <div class="flex flex-col flex-left-col margin-one-r">
+                <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">IMAGE COMPONENT</h2>
+                <p class="margin-left-one col-secondary font-size">Responsive images are most used these days. It is helpful to users for better experience.</p>
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>responsive-img</code> <code>round-img</code>
+                </div>
+            </div>
+            <h2 class="col-primary font-size-sm">Examples</h2>
+                <div class="container-border-padding">
+                    <div>
+                        <img
+                        class="responsive-img" 
+                        src="./pictures/responsive-image.png" alt="text on image is responsive image" role="img">
+                    </div>
+                <iframe
+                    class="code-container"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250Aclass%253D%2522responsive-img%2522%2520%250Asrc%253D%2522responsive%2520image%2520path%2522%2520alt%253D%2522responsive%2520image%2522%2520role%253D%2522img%2522%253E%250A%2520"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <hr class="margin-top-one margin-bottom-one">
+    
+                <div class="flex flex-row flex-center-row">
                     <img
-                    class="responsive-img" 
-                    src="./pictures/responsive-image.png" alt="text on image is responsive image" role="img">
-            </div>
-            <iframe
+                    class="round-img" 
+                    src="./pictures/round-image.png" alt="clouds and trees" role="img">
+                </div>
+                <iframe
                 class="code-container"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250Aclass%253D%2522responsive-img%2522%2520%250Asrc%253D%2522responsive%2520image%2520path%2522%2520alt%253D%2522responsive%2520image%2522%2520role%253D%2522img%2522%253E%250A%2520"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2520class%253D%2522round-img%2522%2520%250A%2520src%253D%2522rounded%2520image%2520path%2522%2520alt%253D%2522rounded%2520image%2522%2520role%253D%2522img%2522%253E"
                 sandbox="allow-scripts allow-same-origin">
-            </iframe>
-            <h2>Rounded Image Example</h2>
-            <div class="container-border-padding">
-                <img
-                class="round-img" 
-                src="./pictures/round-image.png" alt="clouds and trees" role="img">
-            </div>
-            <iframe
-            class="code-container"
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2520class%253D%2522round-img%2522%2520%250A%2520src%253D%2522rounded%2520image%2520path%2522%2520alt%253D%2522rounded%2520image%2522%2520role%253D%2522img%2522%253E"
-            sandbox="allow-scripts allow-same-origin">
-            </iframe>
+                </iframe>
+                </div>
         </div>
     <!-- IMAGE END -->
 
     <!-- INPUT START -->
         <div class="container">
-            <h2>Input</h2>
-            <p>Input takes data from from user.</p>
-            <h2>Input Text-box Example</h2>
-            <div class="container-border-padding ">
-                <div class="flex flex-row flex-center-row flex-wrap">
-                    <div class="font-size-sm padding-sm">
-                        <label for="l-text">Enter Text : </label>
-                        <div>
-                            <input type="text" class="input-box font-size-sm" id="l-text">
-                        </div>
-                    </div>
+            <div class="flex flex-col flex-left-col margin-one-r">
+                <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">INPUT COMPONENT</h2>
+                <p class="margin-left-one col-secondary font-size">Input is a part of the form element. Input takes data from user. Most commonly used in login and sign up forms.</p>
+                <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
+                <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
+                    <code>input box</code> <code>input-border-validate</code> <code>input-border-error</code>
                 </div>
             </div>
-            <iframe
-                class="code-container"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520Input%2520Text-Box%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2522%253E%250A%250A"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
-            <h2>Input Validation and Error Examples</h2>
+            <h2 class="col-primary font-size-sm">Examples</h2>
             <div class="container-border-padding">
-                <div class="flex flex-row flex-center-row flex-wrap">
-                    <div class="font-size-sm padding-sm">
-                        <label for="l-text">Email : </label>
-                        <div class="flex flex-col">
-                            <input type="text" class="input-box font-size-sm input-border-validate" id="l-text">
-                            <small class="input-color-validate">Valid</small>
-                        </div>
-                    </div>
-                    <div class="font-size-sm padding-sm">
-                        <label for="l-text">Email : </label>
-                        <div class="flex flex-col">
-                            <input type="text" class="input-box input-border-error font-size-sm" id="l-text">
-                            <small class="input-color-error">Error</small>
+                <div>
+                    <div class="flex flex-row flex-center-row flex-wrap">
+                        <div class="font-size-sm padding-sm">
+                            <label for="l-text">Enter Text : </label>
+                            <div>
+                                <input type="text" class="input-box font-size-sm" id="l-text">
+                            </div>
                         </div>
                     </div>
                 </div>
+                <iframe
+                    class="code-container"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520Input%2520Text-Box%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2522%253E%250A%250A"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                
+                <hr class="margin-top-one margin-bottom-one">
+                
+                <div>
+                    <div class="flex flex-row flex-center-row flex-wrap">
+                        <div class="font-size-sm padding-sm">
+                            <label for="l-text">Email : </label>
+                            <div class="flex flex-col">
+                                <input type="text" class="input-box font-size-sm input-border-validate" id="l-text">
+                                <small class="input-color-validate">Valid</small>
+                            </div>
+                        </div>
+                        <div class="font-size-sm padding-sm">
+                            <label for="l-text">Email : </label>
+                            <div class="flex flex-col">
+                                <input type="text" class="input-box input-border-error font-size-sm" id="l-text">
+                                <small class="input-color-error">Error</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    class="code-container"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520Input%2520Valid%2520style%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-border-validate%2522%253E%250A%250A%250A%253C%21--%2520Input%2520Error%2520style%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-border-error%2522%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
-            <iframe
-                class="code-container"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253C%21--%2520Input%2520Valid%2520style%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-border-validate%2522%253E%250A%250A%250A%253C%21--%2520Input%2520Error%2520style%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-border-error%2522%253E"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
         </div>
     <!-- INPUT END -->
 

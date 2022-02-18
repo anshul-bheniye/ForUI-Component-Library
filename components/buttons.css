@@ -56,7 +56,7 @@ padding: 2rem;
 /* --------CODE IFRAME----------- */
 .code-container{ 
   width: 100%;
-  height: 29rem;
+  height: auto;
   border: 0;
   overflow: hidden;
 }
