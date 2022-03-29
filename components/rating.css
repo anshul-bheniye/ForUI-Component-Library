@@ -1,0 +1,9 @@
+/* rating start */
+    .rating-star{
+        margin: 4px;
+    }
+
+    .rating-star-active{
+        color: var(--bg-alert-warning);
+    }
+/* rating end */
