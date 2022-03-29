@@ -1,0 +1,47 @@
+/* Modal Start */
+.modal{
+    max-width: 25rem;
+    border: 1px solid;
+    padding: 0 10px;
+}
+
+.modal-head{
+    padding-top: 10px ;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 1px solid;
+}
+
+.modal-body{
+    padding: 1rem 0;
+    border-bottom: 1px solid;
+}
+
+.modal-bottom{
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.modal-center{
+    margin: auto;
+}
+
+.modal-btn{
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+}
+
+.modal-warning-btn{
+    background-color: var(--bg-alert-warning);
+}
+
+.modal-success-btn{
+    background-color: var(--bg-alert-primary);
+}
+
+/* Modal End */
