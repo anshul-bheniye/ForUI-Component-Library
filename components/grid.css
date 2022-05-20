@@ -1,0 +1,27 @@
+.grid{
+    display: grid;
+}
+
+.grid-two-col{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.grid-three-col{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.grid-two-row{
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.grid-three-row{
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.grid-justify-center{
+    justify-content: center;
+}

@@ -10,6 +10,9 @@
 @import './components/card.css';
 @import './components/landingPage.css';
 @import './components/snackBar.css';
+@import './components/text_utilities.css';
+@import './components/grid.css';
+@import './components/lists.css';
 
 /* -----------------------IMPORTS END--------------------------- */
 *{
