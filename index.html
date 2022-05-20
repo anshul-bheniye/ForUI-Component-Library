@@ -60,20 +60,33 @@
     <!-- INSTALLATION END -->
 
     <h2 class="col-primary font-size-sm" id="docs">DOCUMENTATION</h2>
+<div class="flex panel-query">
+    <div>
     <!-- COMPONENT NAV START -->
     <nav class="sticky z-index-one container-border-padding">
-        <ul class="flex flex-row flex-space-between-row font-size-sm padding-sm list-style-none flex-wrap">
-            <li class="bg-primary card-shadow padding-sm"><a href="#alert" class="links col-secondary">ALERT</a></li>
-            <li class="bg-primary card-shadow padding-sm"><a href="#avatar" class="links col-secondary">AVATAR</a></li>
-            <li class="bg-primary card-shadow padding-sm"><a href="#badge" class="links col-secondary">BADGE</a></li>
-            <li class="bg-primary card-shadow padding-sm"><a href="#button" class="links col-secondary">BUTTON</a></li>
-            <li class="bg-primary card-shadow padding-sm"><a href="#card" class="links col-secondary">CARD</a></li>
-            <li class="bg-primary card-shadow padding-sm"><a href="#image" class="links col-secondary">IMAGE</a></li>
-            <li class="bg-primary card-shadow padding-sm"><a href="#input" class="links col-secondary">INPUT</a></li>
-            <li class="bg-primary col-secondary card-shadow padding-sm round-img"><a href="#top"><i class="fas fa-arrow-up col-secondary"></i></a></li>
+        <ul class="flex flex-col flex-space-between-row font-size-sm padding-sm list-style-none panel-hor">
+            <li class="bg-primary card-shadow padding-sm centerText"><a href="#alert" class="links col-secondary centerText">ALERT</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#avatar" class="links col-secondary centerText">AVATAR</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#badge" class="links col-secondary centerText">BADGE</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#button" class="links col-secondary centerText">BUTTON</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#card" class="links col-secondary centerText">CARD</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#image" class="links col-secondary centerText">IMAGE</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#input" class="links col-secondary centerText">INPUT</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#modal" class="links col-secondary centerText">MODAL</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#rating" class="links col-secondary centerText">RATING</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#snackbar" class="links col-secondary centerText">SNACK BAR</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#text-util" class="links col-secondary">TEXT UTILITY</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#grid" class="links col-secondary">GRID</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#list" class="links col-secondary">LIST</a></li>
+            <li class="bg-primary card-shadow padding-sm centerText margin-top-one"><a href="#navigation" class="links col-secondary">NAVBAR</a></li>
+
+            <li class="bg-primary col-secondary card-shadow padding-sm round-img centerText margin-top-one"><a href="#top"><i class="fas fa-arrow-up col-secondary"></i></a></li>
         </ul>
     </nav>    
     <!-- COMPONENT NAV END -->
+    </div>
+
+    <div>
     <!-- ALERT START -->
         
         <div class="container" id="alert">
@@ -447,6 +460,7 @@
     <!-- INPUT END -->
   
     <!-- MODAL START -->
+    <div class="container" id="modal">
     <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">MODAL COMPONENT</h2>
     <p class="margin-left-one col-secondary font-size">Modal is the dailog box which usually is at top of everything.</p>
     <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
@@ -483,10 +497,11 @@
             sandbox="allow-scripts allow-same-origin">
         </iframe>
     </div>
+    </div>
     <!-- MODAL END -->
 
     <!-- RATING START -->
-    <div>
+    <div class="container" id="rating">
         <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">RATING</h2>
                 <p class="margin-left-one col-secondary font-size">Rating component can be used in e-commerce app or anything you want to rate!</p>
                 <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
@@ -515,27 +530,28 @@
     <!-- RATING END -->
 
     <!-- SNACK-BAR START -->
-        <div>
+    <div class="container" id="snackbar">
+        
             <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">SNACK-BAR COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">You can use snackbar for push notifications, is light-weight and easy to customize.</p>
                 <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
+                
                 <div class="flex flex-space-around-row flex-wrap col-secondary font-size">             
                     <code>snackbar</code>
                     <code>snackbar-info</code>
                     <code>snackbar-warning</code> 
                     <code>snackbar-success</code>
                     <code>snackbar-error</code>
-                  <div>
-                  
-                  <h2 class="col-primary font-size-sm">Examples</h2>
-                    <div class="container-border-padding">
-                      <div class="flex flex-row flex-center-row">
+                </div>
+                    <div class="flex flex-row flex-center-row">
                         <div class="snackbar snackbar-info flex flex-row">
                             <div><i class="fas fa-info-circle"></i></div>
                             <p>Hi! I am info message</p>
                         </div>
-                       </div>
+                    </div>
 
+                  <h2 class="col-primary font-size-sm">Examples</h2>
+                    <div class="container-border-padding">
                       <iframe
                         class="code-container"
                         src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=854.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522snackbar%2520snackbar-info%2520flex%2520flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EHi%21%2520I%2520am%2520info%2520message%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
@@ -546,7 +562,8 @@
     <!-- SNACK-BAR END -->
                   
     <!-- TEXT UTILITIES START -->
-    <div class="flex flex-col flex-left-col margin-one-r">
+    <div class="container" id="text-util">
+    <div class="flex flex-col flex-left-col">
         <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">TEXT UTILITIES</h2>
            <!-- HEADING START -->
             <div>
@@ -563,12 +580,12 @@
                 <h2 class="col-primary font-size-sm">Examples</h2>
 
                 <div class="container-border-padding">
-                <p class="headingOne">This is heading 1</p>
-                <p class="headingTwo">This is heading 2</p>
-                <p class="headingThree">This is heading 3</p>
-                <p class="headingFour">This is heading 4</p>
-                <p class="headingFive">This is heading 5</p>
-                <p class="headingSix">This is heading 6</p>
+                    <p class="headingOne">This is heading 1</p>
+                    <p class="headingTwo">This is heading 2</p>
+                    <p class="headingThree">This is heading 3</p>
+                    <p class="headingFour">This is heading 4</p>
+                    <p class="headingFive">This is heading 5</p>
+                    <p class="headingSix">This is heading 6</p>
 
                 <iframe
                     class="code-container"
@@ -650,10 +667,12 @@
             <!-- CENTER TEXT END -->
 
     </div>
+    </div>
     <!-- TEXT UTILITIES END -->
 
     <!-- GRID START -->
-        <div>
+    <div class="container" id="grid">
+        
             <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">GRID COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Use grid to solve layout problems. Below are grid-two and grid-three.</p>
                 <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
@@ -699,12 +718,13 @@
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
-                </div>
-        </div>
+     </div>
+
     <!-- GRID END -->
 
         <!-- LIST START -->
-        <div id="list">
+        <div class="container" id="list">
+        
             <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">LIST COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Below are list i.e unodered list(ul) and ordered list(ol) and their styles</p>
                 <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
@@ -775,6 +795,8 @@
     <!-- LIST END -->
 
     <!-- NAVIGATION COMPO START -->
+    <div class="container" id="navigation">
+
         <h2 class="margin-one-r margin-bottom-zero col-primary font-size-sm">NAVIGATION COMPONENT</h2>
                 <p class="margin-left-one col-secondary font-size">Below is the simple navigation bar.</p>
                 <h2 class="margin-one-r margin-bottom-zero font-size-sm col-primary">Classes</h2>
@@ -803,8 +825,11 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
+    </div>
     <!-- NAVIGATION COMPO END -->
 
+    </div>
+</div>
           
     <!-- FOOTER START -->
         <footer class="bg-primary padding-sm font-size">
