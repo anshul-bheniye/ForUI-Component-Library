@@ -1,0 +1,24 @@
+/* ---------------SNACK BAR START--------------------- */
+    .snackbar{
+        width: fit-content;
+        position: absolute;
+        padding: 12px;
+        gap: 1rem;
+    }
+
+    .snackbar-info{
+        background-color: var(--bg-alert-primary);
+    }
+
+    .snackbar-warning{
+        background-color: var(--bg-alert-warning);
+    }
+
+    .snackbar-success{
+        background-color: var(--bg-alert-success);
+    }
+
+    .snackbar-error{
+        background-color: var(--bg-alert-danger);
+    }
+/* ---------------SNACK BAR END----------------------------- */
