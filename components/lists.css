@@ -1,0 +1,38 @@
+/*------------ LIST STYLE START ----------------*/
+.list-square{
+    list-style: square;
+}
+
+.list-inside{
+    list-style: inside;
+}
+
+.list-none{
+    list-style: none;
+}
+
+.list-title{
+    padding-bottom: 7px;
+}
+
+.list-item-border{
+    border: 1px solid;
+}
+
+.list-item{
+    padding: 5px;
+}
+
+.list-item:hover{
+    color: var(--secondary-color)
+}
+
+.list-text{
+    margin: 4px;
+    padding: 4px;
+}
+
+.list-text:hover{
+    background-color: var(--bg-alert-secondary);
+}
+/*--------------- LIST STYLE END --------------------------*/

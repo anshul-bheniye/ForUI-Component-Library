@@ -1,0 +1,43 @@
+/*----------- HEADING START -------------*/
+.headingOne{
+    font-size: 2rem;
+}
+
+.headingTwo{
+    font-size: 1.5rem;
+}
+
+.headingThree{
+    font-size: 1.17rem;
+}
+
+.headingFour{
+    font-size: 1rem;
+}
+
+.headingFive{
+    font-size: 0.83rem;
+}
+
+.headingSix{
+    font-size: 0.75rem;
+}
+/*---------- HEADING END ---------------*/
+
+/*------------- SMALL TEXT START ------------*/
+.smallText{
+    font-size: 0.8rem;
+}
+/*------------- SMALL TEXT END -------------*/
+
+/*------------ GRAY TEXT START --------------*/
+.grayText{
+    color: var(--col-alert-secondary);
+}
+/*------------ GRAY TEXT END ---------------*/
+
+/*-------------- CENTER TEXT START ---------------*/
+.centerText{
+text-align: center;
+}
+/*-------------- CENTER TEXT END --------------*/

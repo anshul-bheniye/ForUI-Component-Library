@@ -39,3 +39,27 @@ This library will help you give your web app a new look!
 
   - Input textbox
   - Input with validation and error
+
+- Text Utilities
+  - Heading
+  - Small Text
+  - Gray Text
+  - Center Text
+
+- Lists
+  - Spaced
+  - Stacked
+
+- Navigation
+  - Desktop
+
+- Simplified Grid
+  - Grid with two items
+  - Grid with three items
+
+### And few more components
+- Modal
+
+- Rating
+
+- SnackBar

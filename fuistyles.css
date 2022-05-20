@@ -9,6 +9,12 @@
 @import './components/input.css';
 @import './components/card.css';
 @import './components/landingPage.css';
+@import './components/modal.css';
+@import './components/rating.css';
+@import './components/snackBar.css';
+@import './components/text_utilities.css';
+@import './components/grid.css';
+@import './components/lists.css';
 
 /* -----------------------IMPORTS END--------------------------- */
 *{
@@ -16,9 +22,10 @@
 }
 
 /* ---------------COLOR START-------------------------------- */
+
 :root{
     --primary-color: #34d399;
-    --secondary-color: #d3346e;
+    --secondary-color: #black;
     --complementary-color: white;
 }
 
@@ -146,6 +153,33 @@ hr{
 }
 
 .links:hover{
-    font-size: 2.2rem;
+    font-size: 2.1rem;
 }
 /* ------------------LINK END---------------------------- */
+
+/* ------------------COMPONENT NAV PANEL--------------------------- */
+
+.panel-hor{
+    max-width: 30rem;
+}
+
+@media (max-width: 872px) { 
+    .panel-query{
+        display: flex;
+        flex-direction: column;
+    }
+    .panel-hor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: fit-content;
+
+    }
+
+ }
+
+/* ------------------COMPONENT NAV PANEL---------------------------- */
+
+
+
